@@ -1,0 +1,46 @@
+body{
+    background: #f0f0f0;
+}
+.card{
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #666;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.33);   
+    height: 80px; 
+    font-size: 3em;   
+}
+.classificacao{
+    padding:8px;
+    display: block;
+}
+.areas{
+    border-left: 10px solid #099;
+}
+.conforme{
+    border-left: 10px solid #109D58;
+}
+.correcao{
+    border-left: 10px solid #FFD700;
+}
+.nao-conforme{
+    border-left: 10px solid #FF6347;
+}
+
+
+.aval-insatisfeito{
+     font-size: 2em;
+     color:#FF6347;
+}
+
+.aval-correcao{
+     font-size: 2em;
+     color: #FFD700;
+}
+
+.aval-satisfeito{
+     font-size: 2em;
+     color: #109D58; 
+}
